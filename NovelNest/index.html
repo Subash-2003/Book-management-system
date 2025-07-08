@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Welcome to NovelNest</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="open-book.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <h1 class="heading">NovelNest</h1>
+  <input type="text" id="searchBox" placeholder="Search by title or author...">
+  
+  <div class="container"></div>
+
+  <div class="overlay"></div>
+  <div class="popbox">
+    <h2>Add Book</h2>
+    <form>
+      <input type="text" placeholder="Book Title" id="booktitle" required />
+      <input type="text" placeholder="Book Author" id="author" required />
+      <textarea placeholder="Add Description" id="dis" required></textarea>
+      <button id="added">Add</button>
+      <button id="canceled">Cancel</button>
+    </form>
+  </div>
+
+  <button class="buttonplus" id="buttontouch">+</button>
+ <h1 class="txt">Start your collection by press '+' to add a book.</h1>
+
+  <script src="script.js"></script>
+</body>
+</html>
